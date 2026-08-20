@@ -2,10 +2,11 @@
 ---
 
 body {
-  background-color: #f0f0f0 !important; /* Mude a cor aqui */
+  background: #ffffff !important; /* Mude #ffffff para a cor desejada */
+  background-color: #ffffff !important;
 }
 
-/* Opcional: Garante que o texto fique legível */
-p, h1, h2, h3, a {
-  color: #333; 
+/* Se houver um elemento específico de container cobrindo o fundo */
+.main-content, .wrapper, #container {
+  background: #ffffff !important;
 }   
