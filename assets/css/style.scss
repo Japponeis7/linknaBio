@@ -1,8 +1,11 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 body {
-  background-color: #f0f0f0 !important; /* Mude esta cor para a que você quiser */
+  background-color: #f0f0f0 !important; /* Mude a cor aqui */
+}
+
+/* Opcional: Garante que o texto fique legível */
+p, h1, h2, h3, a {
+  color: #333; 
 }   
