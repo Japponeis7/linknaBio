@@ -1,12 +1,14 @@
 ---
 ---
 
+/* Força a remoção de gradientes e imagens de fundo do tema original */
 body {
-  background: #ffffff !important; /* Mude #ffffff para a cor desejada */
+  background: #ffffff !important; /* Mude para a cor desejada, ex: #000000 */
+  background-image: none !important;
   background-color: #ffffff !important;
 }
 
-/* Se houver um elemento específico de container cobrindo o fundo */
-.main-content, .wrapper, #container {
-  background: #ffffff !important;
+/* Garante que o container principal também não tenha fundo transparente */
+.container, .main-content, .wrapper {
+  background: transparent !important;
 }   
